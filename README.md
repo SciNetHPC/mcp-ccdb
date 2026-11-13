@@ -131,7 +131,7 @@ from a secret manager.
 | `CCDB_MCP_PORT` | Listen port (default `8081`) |
 | `CCDB_MCP_PATH` | MCP endpoint path (default `/mcp`; `MCP_PATH` also accepted) |
 | `HEALTH_PATH` | Health endpoint (default `/health`) |
-| `DEBUG` | Verbose mode (default `false`) |
+| `DEBUG` | Parsed but currently unused |
 | `OIDC_ISSUER_URL` | OIDC issuer; enables OIDC validation |
 | `OIDC_AUDIENCE` | Expected audience for forwarded ID tokens |
 | `OIDC_REQUIRE_BOUND_OPAQUE` | Require `X-Alliance-ID-Token` binding (default `false`) |
@@ -142,7 +142,7 @@ from a secret manager.
 | `STAFF_GROUPS` | Comma-separated groups that grant cross-user access (default `cc-staff,scinet`) |
 | `STAFF_LIST_PATH` | Optional JSON staff list, re-read on a short poll |
 | `ALLOWED_HOSTS` | Host-header allow list for the DNS-rebinding guard |
-| `ALLOWED_ORIGINS` | Optional CORS origin allow list (default empty) |
+| `ALLOWED_ORIGINS` | Parsed but currently unused; CORS is not implemented |
 | `DNS_REBINDING_PROTECTION` | Enable the Host-header guard (default `true`) |
 | `LOG_LEVEL` | `INFO` by default |
 | `LOG_TIME_ZONE` | Zone for the `ts` field (default `America/Toronto`) |
