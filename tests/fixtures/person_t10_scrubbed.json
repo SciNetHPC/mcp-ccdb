@@ -1,0 +1,627 @@
+{
+  "cci": "CCI-000001",
+  "family_name": "Example",
+  "given_name": "Tess",
+  "username": "tess.example",
+  "primary_email": "tess.example@example.ca",
+  "language": "en",
+  "active_in_ldap": true,
+  "primary_role_deactivated?": false,
+  "primary_role_deactivated_at": null,
+  "raps": [
+    {
+      "rapi": "ssu-900-aa",
+      "groupname": "def-example",
+      "title": "Default RAP for Tess Example",
+      "allocations": [
+        {
+          "alloc_id": "ssu-900-aa-005",
+          "resource": "trillium-project",
+          "start_date": "",
+          "expire_date": "",
+          "project_storage_tb": 10,
+          "project_inodes_millions": 1.0
+        },
+        {
+          "alloc_id": "ssu-900-aa-006",
+          "resource": "trillium-nearline",
+          "start_date": "",
+          "expire_date": "",
+          "nearline_storage_tb": 51
+        },
+        {
+          "alloc_id": "ssu-900-aa-007",
+          "resource": "trillium-project",
+          "start_date": "",
+          "expire_date": "",
+          "project_storage_tb": 12,
+          "project_inodes_millions": 3.0
+        },
+        {
+          "alloc_id": "ssu-900-aa-008",
+          "resource": "trillium-nearline",
+          "start_date": "",
+          "expire_date": "",
+          "nearline_storage_tb": 53
+        },
+        {
+          "alloc_id": "ssu-900-aa-010",
+          "resource": "trillium-project",
+          "start_date": "",
+          "expire_date": "",
+          "project_storage_tb": 14,
+          "project_inodes_millions": 5.0
+        },
+        {
+          "alloc_id": "ssu-900-aa-011",
+          "resource": "trillium-nearline",
+          "start_date": "",
+          "expire_date": "",
+          "nearline_storage_tb": 55
+        },
+        {
+          "alloc_id": "ssu-900-aa-012",
+          "resource": "trillium-project",
+          "start_date": "",
+          "expire_date": "",
+          "project_storage_tb": 16,
+          "project_inodes_millions": 7.0
+        },
+        {
+          "alloc_id": "ssu-900-aa-013",
+          "resource": "trillium-nearline",
+          "start_date": "",
+          "expire_date": "",
+          "nearline_storage_tb": 57
+        }
+      ],
+      "owner": {
+        "person": {
+          "cci": "CCI-000001",
+          "family_name": "Example",
+          "given_name": "Tess",
+          "username": "tess.example",
+          "primary_email": "tess.example@example.ca",
+          "language": "en",
+          "active_in_ldap": true,
+          "role": {
+            "ccri": "CCRI-000001",
+            "institution": "University of Toronto",
+            "position": "Faculty",
+            "department": "Example Department",
+            "expired_at": null,
+            "deactivated?": false,
+            "deactivated_at": null
+          }
+        }
+      },
+      "members": [
+        {
+          "person": {
+            "cci": "CCI-000002",
+            "family_name": "Alpha",
+            "given_name": "Member",
+            "username": "member01",
+            "primary_email": "member01@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000002",
+              "institution": "University of Toronto",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000003",
+            "family_name": "Bravo",
+            "given_name": "Member",
+            "username": "member02",
+            "primary_email": "member02@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000003",
+              "institution": "McMaster University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000004",
+            "family_name": "Charlie",
+            "given_name": "Member",
+            "username": "member03",
+            "primary_email": "member03@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000004",
+              "institution": "McMaster University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000005",
+            "family_name": "Delta",
+            "given_name": "Member",
+            "username": "member04",
+            "primary_email": "member04@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000005",
+              "institution": "McMaster University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000006",
+            "family_name": "Echo",
+            "given_name": "Member",
+            "username": "member05",
+            "primary_email": "member05@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000006",
+              "institution": "University of British Columbia",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000007",
+            "family_name": "Foxtrot",
+            "given_name": "Member",
+            "username": "member06",
+            "primary_email": "member06@example.ca",
+            "language": "fr",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000007",
+              "institution": "University of Toronto",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000008",
+            "family_name": "Golf",
+            "given_name": "Member",
+            "username": "member07",
+            "primary_email": "member07@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000008",
+              "institution": "McMaster University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000009",
+            "family_name": "Hotel",
+            "given_name": "Member",
+            "username": "member08",
+            "primary_email": "member08@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000009",
+              "institution": "University of Waterloo",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000010",
+            "family_name": "India",
+            "given_name": "Member",
+            "username": "member09",
+            "primary_email": "member09@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000010",
+              "institution": "Queen's University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000011",
+            "family_name": "Juliet",
+            "given_name": "Member",
+            "username": "member10",
+            "primary_email": "member10@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000011",
+              "institution": "University of British Columbia",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000012",
+            "family_name": "Kilo",
+            "given_name": "Member",
+            "username": "member11",
+            "primary_email": "member11@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000012",
+              "institution": "University of Toronto",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000013",
+            "family_name": "Lima",
+            "given_name": "Member",
+            "username": "member12",
+            "primary_email": "member12@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000013",
+              "institution": "McMaster University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        }
+      ]
+    },
+    {
+      "rapi": "ssu-900-af",
+      "groupname": "rrg-example-ad",
+      "title": "Computational studies of example membranes",
+      "allocations": [
+        {
+          "alloc_id": "ssu-900-af-001",
+          "resource": "trillium-cpu",
+          "start_date": "2026-04-07 00:00:00 -0400",
+          "expire_date": "2027-04-01 00:00:00 -0400",
+          "core_years": 100000.0,
+          "core_equivalent": 120000.0
+        },
+        {
+          "alloc_id": "ssu-900-af-002",
+          "resource": "trillium-gpu",
+          "start_date": "2026-04-07 00:00:00 -0400",
+          "expire_date": "2027-04-01 00:00:00 -0400",
+          "gpu_rgu_years": 5000.0,
+          "gpu_rgu_equivalent_years": 6000.0
+        }
+      ],
+      "owner": {
+        "person": {
+          "cci": "CCI-000001",
+          "family_name": "Example",
+          "given_name": "Tess",
+          "username": "tess.example",
+          "primary_email": "tess.example@example.ca",
+          "language": "en",
+          "active_in_ldap": true,
+          "role": {
+            "ccri": "CCRI-000001",
+            "institution": "University of Toronto",
+            "position": "Faculty",
+            "department": "Example Department",
+            "expired_at": null,
+            "deactivated?": false,
+            "deactivated_at": null
+          }
+        }
+      },
+      "members": [
+        {
+          "person": {
+            "cci": "CCI-000002",
+            "family_name": "Alpha",
+            "given_name": "Member",
+            "username": "member01",
+            "primary_email": "member01@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000002",
+              "institution": "University of Toronto",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000003",
+            "family_name": "Bravo",
+            "given_name": "Member",
+            "username": "member02",
+            "primary_email": "member02@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000003",
+              "institution": "McMaster University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000004",
+            "family_name": "Charlie",
+            "given_name": "Member",
+            "username": "member03",
+            "primary_email": "member03@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000004",
+              "institution": "McMaster University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000005",
+            "family_name": "Delta",
+            "given_name": "Member",
+            "username": "member04",
+            "primary_email": "member04@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000005",
+              "institution": "McMaster University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000006",
+            "family_name": "Echo",
+            "given_name": "Member",
+            "username": "member05",
+            "primary_email": "member05@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000006",
+              "institution": "University of British Columbia",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000007",
+            "family_name": "Foxtrot",
+            "given_name": "Member",
+            "username": "member06",
+            "primary_email": "member06@example.ca",
+            "language": "fr",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000007",
+              "institution": "University of Toronto",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000008",
+            "family_name": "Golf",
+            "given_name": "Member",
+            "username": "member07",
+            "primary_email": "member07@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000008",
+              "institution": "McMaster University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000009",
+            "family_name": "Hotel",
+            "given_name": "Member",
+            "username": "member08",
+            "primary_email": "member08@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000009",
+              "institution": "University of Waterloo",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000010",
+            "family_name": "India",
+            "given_name": "Member",
+            "username": "member09",
+            "primary_email": "member09@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000010",
+              "institution": "Queen's University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000011",
+            "family_name": "Juliet",
+            "given_name": "Member",
+            "username": "member10",
+            "primary_email": "member10@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000011",
+              "institution": "University of British Columbia",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000012",
+            "family_name": "Kilo",
+            "given_name": "Member",
+            "username": "member11",
+            "primary_email": "member11@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000012",
+              "institution": "University of Toronto",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        },
+        {
+          "person": {
+            "cci": "CCI-000013",
+            "family_name": "Lima",
+            "given_name": "Member",
+            "username": "member12",
+            "primary_email": "member12@example.ca",
+            "language": "en",
+            "active_in_ldap": true,
+            "role": {
+              "ccri": "CCRI-000013",
+              "institution": "McMaster University",
+              "position": "PhD Student",
+              "department": "Example Department",
+              "expired_at": null,
+              "deactivated?": false,
+              "deactivated_at": null
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

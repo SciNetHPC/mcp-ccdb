@@ -1,0 +1,44 @@
+[project]
+name = "ccdb-mcp"
+version = "0.3.5"
+description = "MCP server for the Alliance CCDB allocations API"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.11"
+keywords = ["mcp", "ccdb", "allocations", "hpc", "alliance"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "starlette",
+    "requests",
+    "fastmcp>=2.12.5",
+    "uvicorn",
+    "httpx2>=2.12",
+    "PyJWT>=2.8,<3",
+    "cryptography>=42",
+]
+
+[project.urls]
+Homepage = "https://github.com/SciNetHPC/mcp-ccdb"
+Issues = "https://github.com/SciNetHPC/mcp-ccdb/issues"
+
+[project.scripts]
+ccdb-mcp = "ccdb_mcp.server:main"
+
+[project.optional-dependencies]
+test = ["pytest>=8", "pytest-asyncio>=0.24"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/ccdb_mcp"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests", "src"]
